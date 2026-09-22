@@ -60,3 +60,26 @@ nav ul{
 a{
     color: black;
 }
+#contentt{
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 20px 20px;
+}
+img{
+    padding: 1em;
+}
+#links{
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    margin-bottom: 3rem;
+    
+}
+dt{
+    font-size: 2em;
+}
+dd{
+    font-size: 1em;
+    text-align: justify;
+    padding:  1em 6em;
+}
