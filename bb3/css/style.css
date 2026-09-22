@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background-color: burlywood;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+html{
+    font-size: 1em;
+    font-family: "Montserrat", sans-serif;
+}
+
+footer{
+    background-color: burlywood;
+    padding: 30px 20px;
+}
+#about{
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 20px 20px;
+}
+#articles{
+    background-color: rgb(182, 182, 182);
+    text-align: center;
+    padding: 20px 20px;
+}
+p{
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    margin-bottom: 3rem;
+    padding: 10px
+    
+}
+h2{
+    text-align: center;
+    font-size: 1.5rem;
+}
+ol{
+    padding-left: 1em;
+    text-align: center;
+    list-style: none;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+#logo{
+    padding: 1em 1em 1em;
+}
+a{
+    color: black;
+}
+#contentt{
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 20px 20px;
+}
+img{
+    padding: 1em;
+}
+#links{
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    margin-bottom: 3rem;
+    
+}
+dt{
+    font-size: 2em;
+}
+dd{
+    font-size: 1em;
+    text-align: justify;
+    padding:  1em 6em;
+}
