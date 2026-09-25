@@ -67,6 +67,7 @@ a{
 }
 img{
     padding: 1em;
+    border-radius: 2em;
 }
 #links{
     text-align: justify;
@@ -82,4 +83,8 @@ dd{
     font-size: 1em;
     text-align: justify;
     padding:  1em 6em;
+}
+#soc{
+    padding: 2em;
+    align-items: center;
 }
