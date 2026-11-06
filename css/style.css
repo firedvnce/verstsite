@@ -85,6 +85,163 @@ dd{
     padding:  1em 6em;
 }
 #soc{
-    padding: 2em;
+    padding: 1em;
     align-items: center;
+}
+table{
+    border-collapse: collapse;
+    margin: 0% auto;
+}
+td:nth-child(odd) {
+    background-color: aqua;
+}
+
+td:first-child{
+    background-color: chartreuse;
+}
+tbody tr:last-child{
+    background-color: chartreuse;
+}
+form{
+    background-color: chocolate;
+    text-align: center;
+    padding: 1em 1em;
+}
+form p{
+    text-align: center;
+}
+nav a:visited{
+    color: black;    
+}
+nav a:hover {
+    transition: all ease 0.3s;
+    color: white;
+    text-decoration: overline
+}
+nav a:focus{
+    color: green;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+nav a:active{
+    color: aqua;
+}
+nav a{
+    color: purple;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+#articles li:nth-child(even){
+    background-color: gray;
+}
+
+.bi-x-diamond-fill{
+    color: brown;
+    transform: scale(3.2);
+}
+#articles a::after{
+    content: "\F624";
+    font-family: "bootstrap-icons";
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+}
+li a{
+    transition: all ease 0.1s;
+}
+li a:hover{
+    transition: all ease 0.1s;
+    color: white;
+    transform: scale(1.1);
+}
+.vajno::after{
+    font-family: 'Courier New', Courier, monospace;
+    content: "ВАЖНО!";
+    font-size: 20px;
+    margin-left: 5px;
+    color: red;
+    background-color: black;
+    
+}
+
+#registration{
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+input{
+    background-color: burlywood;
+    border: rgb(219, 210, 199) 2px solid;
+    border-radius: 4px;
+    padding: 4px;
+    color: black;
+}
+select{
+    background-color: burlywood;
+    border: rgb(219, 210, 199) 2px solid;
+    border-radius: 4px;
+    padding: 4px;
+    color: black;
+    margin: 5px;
+}
+textarea{
+    background-color: burlywood;
+    border: rgb(219, 210, 199) 2px solid;
+    border-radius: 4px;
+    padding: 4px;
+    color: black;
+}
+input[type=submit]{
+    background-color: rgb(105, 94, 78);
+    border: rgb(219, 210, 199) 2px solid;
+    border-radius: 4px;
+    padding: 4px;
+    color: white;
+    transition: 0.2s;
+    margin: 10px;
+    
+}
+input[type=submit]:hover{
+    transition: all ease 0.2s;
+    transform: scale(1.1);
+    background-color: rgb(158, 150, 138);
+    border: rgb(250, 248, 246) 2px solid;
+    cursor: pointer;
+}
+
+input[type=checkbox]{
+    accent-color: red;
+    margin: 2px;
+}
+input[type=radio]{
+    accent-color: red;
+}
+.reset{
+    background-color: rgb(131, 0, 0);
+    color: azure;
+}
+
+select{
+    width: 180px;
+}
+p::first-line{
+    letter-spacing: 5px;
+}
+p:lang(en) {
+    font-family: 'Times New Roman', Times, serif;
+   }
+#soc{
+    margin: 1em;
+    border: 3px solid;
+    background-color:bisque;
+    border-color: rgb(190, 186, 116);
+    border-radius: 10px;
+}
+#links{
+    padding-bottom: 5em;
+}
+h2{
+    text-decoration: underline;
 }
